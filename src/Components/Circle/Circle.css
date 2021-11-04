@@ -1,0 +1,30 @@
+.Circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 150px;
+    height: 150px;
+
+    background-color: #FC3159;
+
+    color: #ffffff;
+
+    border-radius: 50%;
+
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    box-shadow: 1px 1px 1px 0 #7a7a7a;
+}
+
+.Circle:hover {
+    background-color: rgba(252, 49, 89, .7);
+    cursor: pointer;
+
+    transition: background-color .3s ease-in-out;
+}
+
+.titleCircle {
+
+}

@@ -1,0 +1,14 @@
+.App {
+    display: flex;
+    justify-content: center;
+
+    max-width: 1400px;
+    min-width: 800px;
+    margin: 0 auto;
+
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}

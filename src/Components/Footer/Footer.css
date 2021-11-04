@@ -1,0 +1,46 @@
+.Container {
+    display: flex;
+    justify-content: space-between;
+
+    min-width: 800px;
+    padding: 20px;
+}
+
+.button {
+    width: 120px;
+    height: 37px;
+
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 0 #7a7a7a;
+
+    margin: 0;
+    padding: 0;
+
+    font: inherit;
+    cursor: pointer;
+}
+
+.buttonReset {
+    background-color: #ffffff;
+    border-color: #adadad;
+
+    color: #505050;
+}
+
+.buttonNext {
+    background-image: linear-gradient(to top, #076dec, #7bb6ff);
+    border-color: #076dec;
+
+    color: #fff;
+}
+
+.buttonReset:hover {
+    background-color: rgb(225, 225, 225);
+    transition: background-color .3s ease-in-out;
+}
+
+.buttonNext:hover {
+    background-image: linear-gradient(to bottom, #076dec, #7bb6ff);
+    transition: backgground-image .3s ease-in-out;
+}
